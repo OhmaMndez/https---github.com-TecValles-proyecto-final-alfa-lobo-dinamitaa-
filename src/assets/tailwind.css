@@ -1,0 +1,67 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --colorLetra: #038C3E;
+}
+
+.rlink {
+    @apply ml-7 mr-7;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rlinkH {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rlink:hover,
+.rlinkH:hover {
+    color: var(--colorLetra);
+}
+
+.rlink.router-link-active {
+    color: var(--colorLetra);
+}
+
+.arrow:hover {
+    color: var(--colorLetra);
+}
+
+.carh-text {
+    height: 59px;
+    width: 30em;
+}
+
+.text-wrapper {
+    color: var(--colorLetra);
+    font-size: 38px;
+    height: 60px;
+}
+
+.text-wrapper p {
+    font-family: 'Aclonica', sans-serif;
+}
+
+.subtitulos {
+    @apply m-32 mb-8 text-center;
+    font-size: 48px;
+    font-weight: 100;
+    font-family: 'Jost', sans-serif;
+}
+
+b {
+    color: var(--colorLetra);
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
